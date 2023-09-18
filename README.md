@@ -2,7 +2,7 @@
 # CSC738-cybersecurity-assignment
 # Task 2
 
-## Contents <
+## Contents
 [Introduction](#introduction)
 
 [Original ciphertext](#original-ciphertext)
@@ -61,6 +61,17 @@ Below is a list depicting the plaintext (English Alphabet) characters that repla
 
 ![/Users/keanujohnston/Documents/Development/Repos/csc738 cybersecurity/csc738-cybersecurity-individual-assignment/Image8.png](Image8.png)
 
-There you go, now that was fairly basic wasn’t it? The next explanation will be something a little more challenging that includes a bit of mathematical equations.
+## Discussion
+
+Although Frequency Analysis works for every Monoalphabetic Substitution Cipher (including those that use symbols instead of letters), and that it is usable for any language (you just need the frequency of the letters of that language), it has a major weakness.
+That weakness is that for short pieces of ciphertext, the cryptanalyst does not have enough data for the sample to relate to the published letter frequencies, and because of this, the frequencies in a small text may be hugely distorted.
+Another example that might affect the letter frequencies of a text is the subject matter of the text. If the message is about "zebras" then there is likely to be a lot more "z"s in the plaintext than in a normal piece of writing. This can mess up the Frequency Analysis, but is easily overcome by the other techniques employed.
+There are also certain texts that have been written which deliberately skew the frequency of the letters in the plaintext. A very extreme example of this is La Disparition by Georges Perec. This 300 page book was written in 1969, and contains no occurrence of the letter "e", except for the name of the author. It was translated to English in 1995 with the title A Void by Gilbert Adair, under the same constraints. Although not common, it is a warning to cryptanalysts that the personality of a language can be forcibly changed in a piece of writing, and to take note of more than just a single trait (ie frequency) when trying to break a code.
+Finally, if the intercepted message has used an extended alphabet including punctuation and digits, then you would need to find the frequencies of the other parts of the alphabet. Punctuation is fairly standard, and clearly the space character is by far the most common character. But the digits appearance will vary hugely depending on the context of the text. This added level of difficulty can make the decryption process take longer (as would removing all the punctuation), but the reality is that the ciphers are still easily broken with a little bit of thought and patience.
+
+## References
+[1] https://xorcrypt.wordpress.com/2016/04/20/cryptanalysis-via-frequency-analysis-basic/
+
+[2] https://crypto.interactive-maths.com/frequency-analysis-breaking-the-code.html
 
 [Go to Top](#top)
