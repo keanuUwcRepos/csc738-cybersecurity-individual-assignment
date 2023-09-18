@@ -1,5 +1,5 @@
 # CSC738-cybersecurity-assignment
-# Task 2 - Cryptography and mono-alphabetic substitution ciphers
+# Task 2 - Cryptanalysis and mono-alphabetic substitution ciphers
 
 ## Contents
 [Introduction](#introduction)
