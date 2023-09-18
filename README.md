@@ -76,7 +76,7 @@ Eventually, the ciphertext becomes more readable and ends up as plaintext:
 
 Figure 6: Image displaying the plaintext for the original ciphertext.
 
-Finally, the following list in figure 7 is obtained by applying the educated guesses, frequency analysis and common knowledge of the English language.
+Finally, the following list in figure 7 is obtained by applying the educated guesses, frequency analysis and common knowledge of the English language. Of course the letter not present in the list are paired with the same letter. For instance, "z" was paired with "z".
 
 ![/Users/keanujohnston/Documents/Development/Repos/csc738 cybersecurity/csc738-cybersecurity-individual-assignment/Image8.png](Image8.png)[1,2]
 
