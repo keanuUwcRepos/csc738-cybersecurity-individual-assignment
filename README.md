@@ -6,7 +6,13 @@
 
 [Original ciphertext](#original-ciphertext)
 
+[Hypothesis and Methodology](#hypothesis-and-methodology)
+
 [Why is this useful](#why-is-this-useful)
+
+[Discussion](#discussion)
+
+[Conclusion](#conclusion)
 
 ## Introduction
 [Go to Top](#top)
@@ -34,7 +40,7 @@ Figure 2: Image displaying the frequency analysis of the English alphabet.
 
 There is a correlation between the data set above and the percentage frequency of common letter in the English vocabulary. As depicted in figure 2, “E” is the most common letter existing in >12% of all English words.
 
-# Why is the table in figure 2 useful
+## Why is the table in figure 2 useful
 
 When the same frequency analysis is performed on the original ciphertext, the following data is obtained. Figure 3 below illustrates the data obtained:
 
@@ -60,6 +66,8 @@ Figure 5: Image displaying the manipulated ciphertext.
 
 Then upon viewing the manipulated ciphertext, “tG” would most likely be replaceable with an English word that substitutes “G” for an “o”, therefore making the word “to”. Now after updating all the "tg" words in the ciphertext, there seemed to be some sort of pattern. Based on this observation, it is certain that this assumption made for “tG” is valid. 
 
+## Results
+
 Then by applying the same deductions, more potential words are found. Similarly after performing more letter frequency correlations, more plaintext words are found, and we are able to make more educated assumptions.
 
 Eventually, the ciphertext becomes more readable and ends up as plaintext:
@@ -83,6 +91,10 @@ Another factor that can influence letter frequencies in a text is its subject ma
 Certain texts intentionally manipulate letter frequencies in the plaintext. An extreme example of this is Georges Perec's 1969 work, "La Disparition," which spans 300 pages and deliberately omits the letter "e" except for the author's name. An English translation titled "A Void" by Gilbert Adair, published in 1995, adhered to the same constraints. Although such cases are rare, they serve as a reminder to cryptanalysts that the character of a language can be deliberately altered in a piece of writing, prompting the consideration of multiple traits beyond just frequency when attempting to break a code.
 
 Furthermore, if the intercepted message employs an extended alphabet that includes punctuation and digits, it becomes necessary to determine the frequencies of these additional characters. While punctuation tends to follow certain conventions, the appearance of digits can vary widely depending on the text's context. This added complexity can extend the decryption process, but with some thoughtful analysis and patience, these ciphers can still be deciphered relatively easily.
+
+## Conclusion
+In conclusion, this report delves into a cryptanalysis method designed to decrypt mono-alphabetic ciphers, all while bypassing the need for the original cipher key. By following the steps outlined in this report, the encrypted message's plaintext is ultimately unveiled. This method, though straightforward, effectively addresses the challenge of deciphering modest substitution ciphers, making it a valuable addition to the arsenal of cryptanalysts and enthusiasts alike.
+
 
 ## References
 [1] https://xorcrypt.wordpress.com/2016/04/20/cryptanalysis-via-frequency-analysis-basic/
