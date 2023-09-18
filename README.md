@@ -2,7 +2,7 @@
 # CSC738-cybersecurity-assignment
 # Task 2
 
-## Contents <
+## Contents
 [Introduction](#introduction)
 
 [Original ciphertext](#original-ciphertext)
@@ -21,7 +21,7 @@ For the purposes of this explanation, the following ciphertext will be analyzed 
 ## Original ciphertext
 [Go to Top](#top)
 
-![/Users/keanujohnston/Documents/Development/Repos/csc738 cybersecurity/csc738-cybersecurity-individual-assignment/images/Image7.png](Image7.png)
+![images/Image7.png](Image7.png)
 
 # 
 
