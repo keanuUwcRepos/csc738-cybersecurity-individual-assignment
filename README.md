@@ -1,4 +1,4 @@
-[](#top)
+
 # CSC738-cybersecurity-assignment
 # Task 2
 
@@ -15,6 +15,8 @@
 The following provides in-sight to a ‘how to’ approach when required to ‘break’  a simple substitution cipher, without the need of the cryptographic key, to display the ciphertexts original corresponding plaintext message. This is a very basic cryptanalysis method used against  simple substitution, or mono-alphabetic substitution ciphers.
 
 For the purposes of this explanation, the following ciphertext will be analyzed and broken…
+
+[](#top)
 
 ## Original ciphertext
 [Go to Top](#top)
