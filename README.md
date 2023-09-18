@@ -32,7 +32,7 @@ Figure 1: Image displaying the original ciphertext to decrypt.
 
 ## Hypothesis and Methodology
 
-Frequency cryptanalysis is the reading of statistical data and incorporating/manipulating such data to ciphertext, so that valid English words could be analysed as depicted in figure 2[3]:
+Frequency cryptanalysis is the reading of statistical data and incorporating/manipulating such data to ciphertext, so that valid English words could be analysed as depicted in figure 2[1,2]:
     
 ![/Users/keanujohnston/Documents/Development/Repos/csc738 cybersecurity/csc738-cybersecurity-individual-assignment/Image1.png](Image1.png)
 
@@ -44,7 +44,7 @@ There is a correlation between the data set above and the percentage frequency o
 
 When the same frequency analysis is performed on the original ciphertext, the following data is obtained. Figure 3 below illustrates the data obtained:
 
-![/Users/keanujohnston/Documents/Development/Repos/csc738 cybersecurity/csc738-cybersecurity-individual-assignment/Image2.png](Image2.png)
+![/Users/keanujohnston/Documents/Development/Repos/csc738 cybersecurity/csc738-cybersecurity-individual-assignment/Image2.png](Image2.png)[1,2]
 
 Figure 3: Image displaying the data obtained by applying frequency analysis on the original ciphertext
 
@@ -78,13 +78,13 @@ Figure 6: Image displaying the plaintext for the original ciphertext.
 
 Finally, the following list in figure 7 is obtained by applying the educated guesses, frequency analysis and common knowledge of the English language.
 
-![/Users/keanujohnston/Documents/Development/Repos/csc738 cybersecurity/csc738-cybersecurity-individual-assignment/Image8.png](Image8.png)
+![/Users/keanujohnston/Documents/Development/Repos/csc738 cybersecurity/csc738-cybersecurity-individual-assignment/Image8.png](Image8.png)[1,2]
 
 Figure 7: Image displaying all the ciphertext characters with their corresponding plaintext.
 
 ## Discussion
 
-Frequency analysis is a valuable tool for deciphering monoalphabetic substitution ciphers, even those employing symbols instead of letters, and it can be applied to any language given the appropriate letter frequency data. However, it does possess a notable vulnerability. This weakness becomes evident when dealing with short ciphertexts because the limited text length doesn't provide enough data to accurately reflect the established letter frequencies. Consequently, the frequencies observed in a small text can deviate significantly from the standard.
+Frequency analysis is a valuable tool for deciphering monoalphabetic substitution ciphers, even those employing symbols instead of letters, and it can be applied to any language given the appropriate letter frequency data. However, it does possess a notable vulnerability. This weakness becomes evident when dealing with short ciphertexts because the limited text length doesn't provide enough data to accurately reflect the established letter frequencies. Consequently, the frequencies observed in a small text can deviate significantly from the standard[1,2].
 
 Another factor that can influence letter frequencies in a text is its subject matter. For instance, if the message pertains to "zebras," the letter "z" is likely to appear more frequently than in typical writing. While this can disrupt frequency analysis, it can be overcome by employing complementary decryption techniques.
 
