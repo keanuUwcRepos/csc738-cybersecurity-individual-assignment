@@ -24,7 +24,7 @@ The following image, figure 1, is the required ciphertext to crack. It is analys
 
 Figure 1: Image displaying the original ciphertext to decrypt.
 
-# 
+## Hypothesis and Methodology
 
 Frequency cryptanalysis is the reading of statistical data and incorporating/manipulating such data to ciphertext, so that valid English words could be analysed as depicted in figure 2[3]:
     
